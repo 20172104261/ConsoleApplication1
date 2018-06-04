@@ -56,7 +56,9 @@ public:
 int main()
 {
 	CMdate o(1999,1,24);
+	CDate oo(1888, 26, 3);
 	o.display();
+	oo.display();
 
     return 0;
 }
